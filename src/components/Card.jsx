@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
 
 
 function Card(props) {
-    const {question, answer} = props;
+    const {question, answer, funFact, isFlipped, setIsFlipped} = props;
      
-    const [isAnswer, setIsAnswer] = useState(false);
-
   return (
-    <div className="container-card" onClick={() => setIsAnswer(!isAnswer)}>
-      {isAnswer? answer : question}  
-      
+    <div className="container-card" onClick={() => setIsFlipped(!isFlipped)}>
+    {isFlipped ? (
+        <div>
+        <p><strong>{answer}</strong></p>
+        <p className="fun-fact">💡 {funFact}</p>
+        </div>
+    ) : (
+        <p>{question}</p>
+    )}
     </div>
   );
 }
