@@ -1,17 +1,22 @@
 
 
 function Card(props) {
-    const {question, answer, funFact, isFlipped, setIsFlipped} = props;
+    const {question, answer, funFact,image, category, isFlipped, setIsFlipped} = props;
      
   return (
-    <div className="container-card" onClick={() => setIsFlipped(!isFlipped)}>
+    <div className="container-card" id={category} onClick={() => setIsFlipped(!isFlipped)}>
     {isFlipped ? (
         <div>
-        <p><strong>{answer}</strong></p>
-        <p className="fun-fact">💡 {funFact}</p>
+           
+            <img src={image} className="image"></img>
+            <p><strong>{answer}</strong></p>
+            <p className="fun-fact">💡 {funFact}</p>
         </div>
     ) : (
-        <p>{question}</p>
+        <div className="question">
+            <p className="tag">{category}</p>
+            <p>{question}</p>
+        </div>
     )}
     </div>
   );
