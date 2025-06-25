@@ -26,6 +26,8 @@ function App() {
         question={questionAnswer[currentQuestion].question} 
         answer={questionAnswer[currentQuestion].answer}
         funFact={questionAnswer[currentQuestion].funFact}
+        image={questionAnswer[currentQuestion].image}
+        category = {questionAnswer[currentQuestion].category}
         isFlipped={isFlipped}
         setIsFlipped={setIsFlipped}/>
       <button onClick={getRandomQuestion}> Next Question </button>
