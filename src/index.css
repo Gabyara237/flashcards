@@ -73,6 +73,55 @@ body {
   color: white;
 }
 
+.correct {
+  color: #0e8e46;
+
+}
+
+#result {
+  background-color: #ffffff;
+  width: 300px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.incorrect {
+  color: #be0a2e;
+
+}
+
+form {
+  margin: 5px;
+
+}
+
+.button-form {
+  background: #640856;
+  padding: 7px;
+  border-radius: 0px 7px 7px 0px;
+}
+
+input {
+  height: 28px;
+  margin-left: 10px;
+
+}
+
+.navigation-arrows {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.arrows {
+  font-weight: bolder;
+  font-size: larger;
+  color: #640856;
+}
+
 button {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   border: none;
@@ -89,6 +138,11 @@ button:hover {
   cursor: pointer;
   transform: scale(1.05);
 
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .image {
