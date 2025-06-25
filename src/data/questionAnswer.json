@@ -1,52 +1,72 @@
 [
-    {
-        "question": "What is the largest country in the world by area?",
-        "answer": "Russia",
-        "funFact": "Russia is over 17 million km²! That's bigger than Pluto, and it occupies more than 11% of the planet's land area."
-    },
-    {
-        "question": "What is the deepest ocean on the planet?",
-        "answer": "Pacific Ocean",
-        "funFact": "Its deepest point, the Mariana Trench, reaches about 11,034 meters.... Deeper than the height of Mount Everest upside down!"
-    },
-    {
-        "question": "Who wrote One Hundred Years of Solitude?",
-        "answer": "Gabriel García Márquez",
-        "funFact": "The book was published in 1967 and sold more than 50 million copies. It earned him the Nobel Prize for Literature in 1982 "
-    },
-    {
-        "question": "What is the lightest metal in the world?",
-        "answer": "Lithium",
-        "funFact": "Lithium is so light that it floats on water! It's essential in rechargeable batteries, so there's probably lithium in your cell phone right now "
-    },
-    {
-        "question": "How many hearts does an octopus have?",
-        "answer": "Three",
-        "funFact": "That's right! It has two hearts that pump blood to the gills and one to the rest of the body. And when it swims... the main heart stops"
-    },
-    {
-        "question": "What is the capital city of Australia?",
-        "answer": "Canberra",
-        "funFact": "Many people think it's Sydney or Melbourne, but they chose Canberra as a middle ground so there would be no jealousy between the two cities"
-    },
-    {
-        "question": "In what year did the fall of the Berlin Wall occur?",
-        "answer": "1989",
-        "funFact": "It was on November 9, 1989. The fall symbolized the end of the Cold War and the reunification of Germany "
-    },
-    {
-        "question": "What gas do we breathe that is vital for living?",
-        "answer": "Oxygen",
-        "funFact": "Although we need oxygen to live, air contains only 21% of it. The rest is mostly nitrogen"
-    },
-    {
-        "question": "What is the fastest land animal?",
-        "answer": "Cheetah",
-        "funFact": "It can reach speeds of up to 112 km/h and accelerate from 0 to 100 km/h in 3 seconds, faster than many sports cars!"
-    },
-    {
-        "question": "What is the largest planet in the solar system?",
-        "answer": "Jupiter",
-        "funFact": "Jupiter is so big that it could contain all the other planets inside it, and there would still be room left over! "
-    }
+  {
+    "question": "What is the largest country in the world by area?",
+    "answer": "Russia",
+    "funFact": "Russia is over 17 million km²! That's bigger than Pluto, and it occupies more than 11% of the planet's land area.",
+    "image": "/src/assets/russia-map.png",
+    "category": "Geography"
+  },
+  {
+    "question": "What is the deepest ocean on the planet?",
+    "answer": "Pacific Ocean",
+    "funFact": "Its deepest point, the Mariana Trench, reaches about 11,034 meters.... Deeper than the height of Mount Everest upside down!",
+    "image": "/src/assets/pacific-ocean.gif",
+    "category": "Geography"
+  },
+  {
+    "question": "Who wrote One Hundred Years of Solitude?",
+    "answer": "Gabriel García Márquez",
+    "funFact": "The book was published in 1967 and sold more than 50 million copies. It earned him the Nobel Prize for Literature in 1982",
+    "image": "/src/assets/Gabriel-Garcia-Marquez.jpg",
+    "category": "Literature"
+  },
+  {
+    "question": "What is the lightest metal in the world?",
+    "answer": "Lithium",
+    "funFact": "Lithium is so light that it floats on water! It's essential in rechargeable batteries, so there's probably lithium in your cell phone right now",
+    "image": "/src/assets/Lithium.jpg",
+    "category": "Chemistry"
+  },
+  {
+    "question": "How many hearts does an octopus have?",
+    "answer": "Three",
+    "funFact": "That's right! It has two hearts that pump blood to the gills and one to the rest of the body. And when it swims... the main heart stops",
+    "image": "/src/assets/Octopuses.png",
+    "category": "Biology"
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "answer": "Canberra",
+    "funFact": "Many people think it's Sydney or Melbourne, but they chose Canberra as a middle ground so there would be no jealousy between the two cities",
+    "image": "/src/assets/canbera.png",
+    "category": "Geography"
+  },
+  {
+    "question": "In what year did the fall of the Berlin Wall occur?",
+    "answer": "1989",
+    "funFact": "It was on November 9, 1989. The fall symbolized the end of the Cold War and the reunification of Germany",
+    "image": "/src/assets/1989.png",
+    "category": "History"
+  },
+  {
+    "question": "What gas do we breathe that is vital for living?",
+    "answer": "Oxygen",
+    "funFact": "Although we need oxygen to live, air contains only 21% of it. The rest is mostly nitrogen",
+    "image": "/src/assets/Oxygen.jpg",
+    "category": "Science"
+  },
+  {
+    "question": "What is the fastest land animal?",
+    "answer": "Cheetah",
+    "funFact": "It can reach speeds of up to 112 km/h and accelerate from 0 to 100 km/h in 3 seconds, faster than many sports cars!",
+    "image": "/src/assets/cheetahs.jpg",
+    "category": "Biology"
+  },
+  {
+    "question": "What is the largest planet in the solar system?",
+    "answer": "Jupiter",
+    "funFact": "Jupiter is so big that it could contain all the other planets inside it, and there would still be room left over!",
+    "image": "/src/assets/jupiter.png",
+    "category": "Astronomy"
+  }
 ]
