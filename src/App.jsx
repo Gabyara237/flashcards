@@ -34,12 +34,14 @@ function App() {
     const randomQuestion = Math.floor(Math.random() * questionAnswer.length);
       setCurrentQuestion(randomQuestion);
       setIsFlipped(false);
+      setResult('');
   }
 
   function getPreviousQuestion(){
     const previous = Math.max(currentQuestion - 1, 0);
     setCurrentQuestion(previous);
     setIsFlipped(false); 
+    setResult('');
     
   }
 
@@ -47,6 +49,7 @@ function App() {
   const next = Math.min(currentQuestion + 1, questionAnswer.length - 1);
   setCurrentQuestion(next);
   setIsFlipped(false); 
+  setResult('');
 }
 
 
